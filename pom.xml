@@ -11,7 +11,7 @@
 
     <groupId>org.openmrs.module</groupId>
     <artifactId>erp</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
     <name>OpenMRS ERP Web API</name>
     <description>OpenMRS module to expose Web API endpoints to access ERP data</description>
@@ -30,6 +30,7 @@
     </modules>
 
     <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
         <openmrsPlatformVersion>2.1.1</openmrsPlatformVersion>
         <odoo-java-apiVersion>3.0.1</odoo-java-apiVersion>
         <webservices.restVersion>2.24.0</webservices.restVersion>
